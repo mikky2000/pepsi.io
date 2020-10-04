@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo">
+            <a href="home.html"><img src="logo.png" id="mylogo"></a>
+        </div>
+
+        <div class="menu">
+            <ul>
+             
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="infor">
+            <div class="picture">
+                <img src="can1.png" class="pepsiCan">
+            </div>
+
+            <h2>THAT'S WHAT<br><span>I like</span></h2>   
+        
+            <p>
+                
+                PepsiCo, Inc. is an American multinational food, snack <br>
+                and beverage corporation headquartered in Harrison,<br>
+                New York, in the hamlet of Purchase. PepsiCo has interests <br>
+                in the manufacturing, marketing,
+                and distribution <br>of grain-based snack foods, beverages, and other products.
+                
+
+            </p>
+            <a href="https://pepsi.co.uk/#products" >View All Products</a> 
+        </div>
+        <div class="can-pix">
+            <ul>
+                <li><img src="can1.png" id="pix1" onclick="imgSlider('can1.png'); changeBgColor('#0062be')"></li>
+               <li><img src="can2.png" id="pix2" onclick="imgSlider('can2.png');  changeBgColor('#e60c2c')"></li>
+               <li><img src="can3.png" id="pix3" onclick="imgSlider('can3.png');  changeBgColor('#1e1e1e')"></li>
+            </ul>
+
+        </div>
+
+        <div class="SocialMedia">
+            <ul>
+                <li><a href="https://twitter.com/PepsiMaxUK"><img src="twitter.png"></li></a>
+                <li><a href="https://en-gb.facebook.com/pepsi"><img src="facebook.png"></li></a>
+                <li><a href="https://www.instagram.com/pepsi/?hl=en"><img src="instagram.png"></li></a>
+            </ul>
+            
+        </div>
+
+        <div id="mobile_menu">&#9776</div>
+        <div class="MenuDisplay">
+       
+            <ul>
+           
+                <li id="home"><a href="home.html">Home</a></li>
+                <li id="projects"><a href="#">Project</a></li>
+                <li id="products"><a href="https://pepsi.co.uk/#products">View All Products</a></li>
+                <li id="contact"><a href="#footer">Contact</a></li></ul>
+              
+                
+            </ul>
+        </div>
+        
+        <footer id="footer">
+            <p>Designed: PencoedTechnology<br>
+            <a href="mailto:pencoedtechnology@gmail.com">pencoedtechnology@gmail.com</a>
+            </p>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="home.js"></script>
+</body>
+</html>
